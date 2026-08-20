@@ -1,36 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">Keyword Ops</title>
-  <desc id="desc">Red and blue teams compete over a five by five keyword grid.</desc>
+  <title id="title">Keyword Ops</title><desc id="desc">Tactical red versus blue keyword intelligence operation.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1020"/>
-      <stop offset="1" stop-color="#151d33"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".35"/>
-    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071b24"/><stop offset=".55" stop-color="#031015"/><stop offset="1" stop-color="#071b1c"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#72e6df" stop-opacity=".22"/><stop offset="1" stop-color="#72e6df" stop-opacity="0"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
   </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <g opacity=".12" stroke="#8ea0c9" stroke-width="1">
-    <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200M0 420H1200M0 490H1200M0 560H1200"/>
-    <path d="M100 0V630M200 0V630M300 0V630M400 0V630M500 0V630M600 0V630M700 0V630M800 0V630M900 0V630M1000 0V630M1100 0V630"/>
-  </g>
-  <g transform="translate(710 88) rotate(-4 205 205)" filter="url(#shadow)">
-    <rect x="-26" y="-26" width="462" height="462" rx="36" fill="#0f172a" stroke="#2a3857" stroke-width="3"/>
-    <g>
-      <rect x="0" y="0" width="72" height="72" rx="14" fill="#ef5b62"/><rect x="84" y="0" width="72" height="72" rx="14" fill="#e7e0cb"/><rect x="168" y="0" width="72" height="72" rx="14" fill="#5b8def"/><rect x="252" y="0" width="72" height="72" rx="14" fill="#ef5b62"/><rect x="336" y="0" width="72" height="72" rx="14" fill="#e7e0cb"/>
-      <rect x="0" y="84" width="72" height="72" rx="14" fill="#5b8def"/><rect x="84" y="84" width="72" height="72" rx="14" fill="#ef5b62"/><rect x="168" y="84" width="72" height="72" rx="14" fill="#e7e0cb"/><rect x="252" y="84" width="72" height="72" rx="14" fill="#5b8def"/><rect x="336" y="84" width="72" height="72" rx="14" fill="#ef5b62"/>
-      <rect x="0" y="168" width="72" height="72" rx="14" fill="#e7e0cb"/><rect x="84" y="168" width="72" height="72" rx="14" fill="#5b8def"/><rect x="168" y="168" width="72" height="72" rx="14" fill="#111827" stroke="#f5c451" stroke-width="4"/><rect x="252" y="168" width="72" height="72" rx="14" fill="#ef5b62"/><rect x="336" y="168" width="72" height="72" rx="14" fill="#5b8def"/>
-      <rect x="0" y="252" width="72" height="72" rx="14" fill="#ef5b62"/><rect x="84" y="252" width="72" height="72" rx="14" fill="#e7e0cb"/><rect x="168" y="252" width="72" height="72" rx="14" fill="#5b8def"/><rect x="252" y="252" width="72" height="72" rx="14" fill="#e7e0cb"/><rect x="336" y="252" width="72" height="72" rx="14" fill="#ef5b62"/>
-      <rect x="0" y="336" width="72" height="72" rx="14" fill="#5b8def"/><rect x="84" y="336" width="72" height="72" rx="14" fill="#ef5b62"/><rect x="168" y="336" width="72" height="72" rx="14" fill="#e7e0cb"/><rect x="252" y="336" width="72" height="72" rx="14" fill="#ef5b62"/><rect x="336" y="336" width="72" height="72" rx="14" fill="#5b8def"/>
+  <rect width="1200" height="630" fill="url(#bg)"/><circle cx="880" cy="300" r="340" fill="url(#glow)" filter="url(#blur)"/>
+  <g stroke="#72d7d2" stroke-opacity=".12"><path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200M0 420H1200M0 490H1200M0 560H1200"/><path d="M100 0V630M200 0V630M300 0V630M400 0V630M500 0V630M600 0V630M700 0V630M800 0V630M900 0V630M1000 0V630M1100 0V630"/></g>
+  <g transform="translate(74 96)"><text fill="#75b9bc" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="6">PARTI // SIGNAL COMMAND</text><text y="100" fill="#f3fbf8" font-family="Arial,Helvetica,sans-serif" font-size="82" font-weight="900" letter-spacing="4">KEYWORD</text><text y="184" fill="#f3fbf8" font-family="Arial,Helvetica,sans-serif" font-size="82" font-weight="900" letter-spacing="4">OPS</text><rect y="214" width="132" height="6" fill="#ff6576"/><rect x="144" y="214" width="132" height="6" fill="#61adff"/><text y="274" fill="#b6cbcd" font-family="Arial,Helvetica,sans-serif" font-size="24">4–10 AGENTS · 2 CELLS · 25 TARGETS</text><text y="316" fill="#759296" font-family="Arial,Helvetica,sans-serif" font-size="19">ONE CLUE. READ THE GRID. AVOID DANGER.</text></g>
+  <g transform="translate(690 80)"><rect width="430" height="430" rx="12" fill="#06161d" stroke="#5aaeb1" stroke-opacity=".38" stroke-width="2"/><path d="M0 20V0H20M410 0H430V20M430 410V430H410M20 430H0V410" fill="none" stroke="#84e4df" stroke-width="4"/>
+    <g transform="translate(28 28)">
+      <rect width="66" height="66" rx="6" fill="#612632" stroke="#ff6576"/><rect x="77" width="66" height="66" rx="6" fill="#183e69" stroke="#61adff"/><rect x="154" width="66" height="66" rx="6" fill="#4c4635" stroke="#b9a976"/><rect x="231" width="66" height="66" rx="6" fill="#183e69" stroke="#61adff"/><rect x="308" width="66" height="66" rx="6" fill="#612632" stroke="#ff6576"/>
+      <rect y="77" width="66" height="66" rx="6" fill="#183e69" stroke="#61adff"/><rect x="77" y="77" width="66" height="66" rx="6" fill="#612632" stroke="#ff6576"/><rect x="154" y="77" width="66" height="66" rx="6" fill="#4c4635" stroke="#b9a976"/><rect x="231" y="77" width="66" height="66" rx="6" fill="#612632" stroke="#ff6576"/><rect x="308" y="77" width="66" height="66" rx="6" fill="#183e69" stroke="#61adff"/>
+      <rect y="154" width="66" height="66" rx="6" fill="#4c4635" stroke="#b9a976"/><rect x="77" y="154" width="66" height="66" rx="6" fill="#183e69" stroke="#61adff"/><rect x="154" y="154" width="66" height="66" rx="6" fill="#090b0c" stroke="#ffb46b" stroke-width="3"/><rect x="231" y="154" width="66" height="66" rx="6" fill="#612632" stroke="#ff6576"/><rect x="308" y="154" width="66" height="66" rx="6" fill="#4c4635" stroke="#b9a976"/>
+      <rect y="231" width="66" height="66" rx="6" fill="#612632" stroke="#ff6576"/><rect x="77" y="231" width="66" height="66" rx="6" fill="#4c4635" stroke="#b9a976"/><rect x="154" y="231" width="66" height="66" rx="6" fill="#183e69" stroke="#61adff"/><rect x="231" y="231" width="66" height="66" rx="6" fill="#4c4635" stroke="#b9a976"/><rect x="308" y="231" width="66" height="66" rx="6" fill="#612632" stroke="#ff6576"/>
+      <rect y="308" width="66" height="66" rx="6" fill="#183e69" stroke="#61adff"/><rect x="77" y="308" width="66" height="66" rx="6" fill="#612632" stroke="#ff6576"/><rect x="154" y="308" width="66" height="66" rx="6" fill="#4c4635" stroke="#b9a976"/><rect x="231" y="308" width="66" height="66" rx="6" fill="#612632" stroke="#ff6576"/><rect x="308" y="308" width="66" height="66" rx="6" fill="#183e69" stroke="#61adff"/>
     </g>
-  </g>
-  <g transform="translate(82 118)">
-    <text x="0" y="0" fill="#93a7d6" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="5">PARTI ROOM</text>
-    <text x="0" y="86" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="78" font-weight="800">Keyword</text>
-    <text x="0" y="166" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="78" font-weight="800">Ops</text>
-    <rect x="0" y="202" width="116" height="8" rx="4" fill="#ef5b62"/><rect x="126" y="202" width="116" height="8" rx="4" fill="#5b8def"/>
-    <text x="0" y="266" fill="#c9d3eb" font-family="Arial,Helvetica,sans-serif" font-size="28">4–10 players · 2 teams · 25 keywords</text>
-    <text x="0" y="312" fill="#8fa0c1" font-family="Arial,Helvetica,sans-serif" font-size="22">Give one clue. Read the board. Avoid danger.</text>
   </g>
 </svg>
