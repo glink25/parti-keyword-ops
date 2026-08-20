@@ -1,0 +1,21 @@
+{
+  "partiVersion": "0.1.0",
+  "protocolVersion": 1,
+  "id": "keyword-ops",
+  "name": "Keyword Ops",
+  "version": "0.1.0",
+  "packageMode": "filesystem",
+  "entry": {
+    "ui": "index.html",
+    "worker": "room.worker.js"
+  },
+  "room": {
+    "minPlayers": 4,
+    "maxPlayers": 10
+  },
+  "sync": { "mode": "snapshot" },
+  "permissions": {
+    "network": false,
+    "storage": "session"
+  }
+}
