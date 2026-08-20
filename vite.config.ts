@@ -13,7 +13,7 @@ function partiWorkerBundle(outDir: string): Plugin {
         outfile,
         bundle: true,
         format: 'esm',
-        target: 'es2022',
+        target: 'es2019',
         sourcemap: true,
         external: ['@parti/worker-sdk'],
       });
@@ -33,7 +33,7 @@ export default defineConfig(({ mode }) => {
       ? process.env.PARTI_ROOM_BUILD_OUT_DIR
       : 'dist';
   return {
-    build: { outDir, emptyOutDir: true, target: 'es2022' },
+    build: { outDir, emptyOutDir: true, target: 'es2019' },
     plugins: [partiWorkerBundle(outDir)],
   };
 });
