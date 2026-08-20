@@ -3,8 +3,8 @@
   "protocolVersion": 1,
   "id": "keyword-ops",
   "name": "Keyword Ops",
-  "version": "0.1.1",
-  "description": "4–10 人双队词语联想对抗游戏。Captain 给出单词与数字提示，Field Agents 在 5×5 关键词板中协作找出己方目标并避开危险词。",
+  "version": "0.2.0",
+  "description": "4–10 人双队词语联想对抗游戏。Captain 给出单词与数字提示，Field Agents 在 5×5 关键词战术情报板中协作找出己方目标并避开危险词。",
   "cover": "cover.svg",
   "packageMode": "filesystem",
   "entry": {
